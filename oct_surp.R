@@ -25,9 +25,9 @@ tendencia<-0
 # Declaramos el modelo
 modelo_carrera_estable <-declare_model(
     N = N,
-    Y_time_1 = rbinom(N, size = 1, prob = prefs_A + 0 * tendencia),
-    Y_time_2 = rbinom(N, size = 1, prob = prefs_A + 1 * tendencia),
-    Y_time_3 = rbinom(N, size = 1, prob = prefs_A + 2 * tendencia)
+    Y_time_1 = rbinom(N, size = 1, prob = prefs_A ),
+    Y_time_2 = rbinom(N, size = 1, prob = prefs_A ),
+    Y_time_3 = rbinom(N, size = 1, prob = prefs_A )
   ) 
 
 
