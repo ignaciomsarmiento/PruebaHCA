@@ -1,2 +1,2 @@
 # PruebaHCA
- Repositorio de prueba para el taller Haciendo Ciencia Abierta
+ Repositorio de prueba para el taller HCA
